@@ -1,42 +1,48 @@
 <!doctype html>
 <html lang="cs">
-  <head>
-    <style>
-    </style>
-    <meta charset="utf-8"/>
-  </head>
-  <body>
-    <header>
-      <h1>Třídní nástěnka</h1>
-      <p>Jednoduchá evidence úkolů</p>
-    </header>
-    <main>
-      <section>
-        <h2>Přidat úkol</h2>
-        <form>
-          <div>
-            <label>Předmět</label></br>
-            <select>
-              <option value=""disabled selected>Vyber Předmět</option>
-              <option value="MAT">Matematika</option>
-              <option value="AJ">Angličtina</option>
-              <option value="ČJ">Čský Jazyk</option>
-              <option value="FYZ">Fyzika</option>
-            </select>
-          </div>
-          <div>
-            <label>Popis úkolu</label></br>
-            <input type="text" required maxlength="140" placeholder="Napiš popis úkolu">
-          </div>
-          <div>
-            <label>Termín</label></br>
-            <input type="date" required>
-          </div>
-        </form>
-      </section>
-      <section>
-        <h2>Seznam úkolů</h2>
-      </section>
-    </main>
-  </body>
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="styles.css"
+ </head>
+<body>
+ <header>
+    <h1>Třídní nástěnka</h1>
+    <p> Jednoduchá evidence úkolů</p>
+ </header>
+ <main>
+   </section>
+    <h2>Přidat úkol</h2>
+    <form>
+      <div>
+         <label>Předmět</label><br>
+         <select>
+            <option value=""disabled selected>Vyber předmět</option>
+            <option value="MAT":>Matematika</option>
+            <option value="AJ":>Angličtina</option>
+            <option value="ČJ":>Čeština</option>
+            <option value="FYZ":>Fyzika</option>
+         </select>
+      </div>
+      <div>
+         <label>Popis úkolu</label></br>
+         <input type="text" required maxlength="140" placeholder="Napiš popis úkolu">
+      </div>
+      <div>
+         <label>Termín</label></br>
+         <input type="date" required>
+      </div>
+   </div>
+   <button>Přidat</button>
+    </form>
+   </section>
+   <section>
+     <h2>Seznam úkolů</h2>
+     <div id="tasklist">
+      <!-- sem dá JS seznam úkolů-->
+     </div>
+   </section>
+ 
+   </main>
+</body>
 </html>
+ 
